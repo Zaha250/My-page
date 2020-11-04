@@ -1,1 +1,76 @@
 @import "../node_modules/normalize.css/normalize";
+@import "../css/fonts.css";
+@import "../scss/vars.scss";
+
+// Верстка
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+
+  &::focus {
+    outline: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img {
+  margin: 0;
+}
+
+input {
+  padding: 16px 14px;
+  outline: none;
+
+  &::active,
+  &::focus {
+    outline: none;
+  }
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+
+  &::active,
+  &::focus {
+    outline: none;
+  }
+}
+
+html {
+  font-size: $fz-base;
+}
+
+body {
+  height: 100%;
+  font-family: $font-base;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
