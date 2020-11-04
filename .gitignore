@@ -1,5 +1,11 @@
 # Object file
 *.o
+*.log
+package-lock.json
+package.json
+gulpfile.js
 
 # Ada Library Information
 *.ali
+# Folders
+node_modules
