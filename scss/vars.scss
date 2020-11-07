@@ -1,3 +1,8 @@
 $font-base: 'Gilroy-Medium';
 $fz-base: 18px;
 $bg-color: #F6F6F6;
+
+%ff-gilroyBold{
+  font-family: 'Gilroy-Bold',sans-serif;
+  font-weight: 700;
+}
